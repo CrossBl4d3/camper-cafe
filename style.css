@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(images/coffee\ beans.jpg);
+    
+
+}
+main{
+    width: 600px;
+    background-color: bisque;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+header{
+    text-align: center;
+    padding-top: 20px;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+hr{
+    height: 2px;
+    width: 550px;
+    border: 2px solid red; 
+    display: grid;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+}
+.coffee{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    justify-content: center;
+}
+.cup{
+    height: 50px;
+    display: grid;
+    place-items: center;
+  
+}
+.product-name{
+    display: inline;
+}
+.price{
+    display: inline;
+}
+.items{
+display: flex;
+justify-content: space-between;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    color: black;
+    padding-top: 15px;
+}
+.address{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
